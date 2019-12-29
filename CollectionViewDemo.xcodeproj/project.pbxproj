@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B8B095123B8EAFD00E65A5D /* WaterFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B095023B8EAFD00E65A5D /* WaterFlowLayout.swift */; };
 		8BA5461423B4F17D00B79AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5461323B4F17D00B79AF2 /* AppDelegate.swift */; };
 		8BA5461623B4F17D00B79AF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5461523B4F17D00B79AF2 /* SceneDelegate.swift */; };
 		8BA5461823B4F17D00B79AF2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5461723B4F17D00B79AF2 /* FirstViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B8B095023B8EAFD00E65A5D /* WaterFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFlowLayout.swift; sourceTree = "<group>"; };
 		8BA5461023B4F17D00B79AF2 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA5461323B4F17D00B79AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BA5461523B4F17D00B79AF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B8B095223B8EB3E00E65A5D /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				8BA5461723B4F17D00B79AF2 /* FirstViewController.swift */,
+				8B8B095023B8EAFD00E65A5D /* WaterFlowLayout.swift */,
+			);
+			path = FirstVC;
+			sourceTree = "<group>";
+		};
+		8B8B095323B8EB4C00E65A5D /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
 		8BA5460723B4F17D00B79AF2 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +76,10 @@
 		8BA5461223B4F17D00B79AF2 /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8B8B095323B8EB4C00E65A5D /* SecondVC */,
+				8B8B095223B8EB3E00E65A5D /* FirstVC */,
 				8BA5461323B4F17D00B79AF2 /* AppDelegate.swift */,
 				8BA5461523B4F17D00B79AF2 /* SceneDelegate.swift */,
-				8BA5461723B4F17D00B79AF2 /* FirstViewController.swift */,
 				8BA5461923B4F17D00B79AF2 /* SecondViewController.swift */,
 				8BA5461B23B4F17D00B79AF2 /* Main.storyboard */,
 				8BA5461E23B4F17E00B79AF2 /* Assets.xcassets */,
@@ -141,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8B095123B8EAFD00E65A5D /* WaterFlowLayout.swift in Sources */,
 				8BA5461A23B4F17D00B79AF2 /* SecondViewController.swift in Sources */,
 				8BA5461823B4F17D00B79AF2 /* FirstViewController.swift in Sources */,
 				8BA5461423B4F17D00B79AF2 /* AppDelegate.swift in Sources */,
